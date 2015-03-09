@@ -14,6 +14,11 @@ namespace ProfessionalWebsite
                         .Include("~/Content/site.css")
                         );
 
+            bundles.Add(new StyleBundle("~/Bundles/font")
+                        .Include("~/fonts/lato-font-faces.css")
+                        .Include("~/fonts/raleway-font-faces.css")
+                        );
+
             bundles.Add(new ScriptBundle("~/Bundles/javascript")
                         .Include("~/Scripts/jquery-2.1.3.js")        
                         .Include("~/Scripts/bootstrap.js")
