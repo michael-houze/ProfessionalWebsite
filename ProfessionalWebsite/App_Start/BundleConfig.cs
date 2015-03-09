@@ -14,7 +14,7 @@ namespace ProfessionalWebsite
                         .Include("~/Content/site.css")
                         );
 
-            bundles.Add(new ScriptBundle("~/bundles/javascript")
+            bundles.Add(new ScriptBundle("~/Bundles/javascript")
                         .Include("~/Scripts/jquery-2.1.3.js")        
                         .Include("~/Scripts/bootstrap.js")
                         .Include("~/Scripts/Chart.js")
