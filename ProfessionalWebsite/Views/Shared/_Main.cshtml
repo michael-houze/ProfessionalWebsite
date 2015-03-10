@@ -10,6 +10,9 @@
 
     @Styles.Render("~/Bundles/css")
     @Styles.Render("~/Bundles/font")
+
+    @Scripts.Render("~/Bundles/preload_js")
+
 </head>
 
 <body data-spy="scroll" data-target="#nav" data-offset="0">
@@ -17,7 +20,8 @@
         @RenderBody()
     </div>
 
-    @Scripts.Render("~/Bundles/javascript")
+    @Scripts.Render("~/Bundles/postload_js")
+    
 </body>
 
 </html>
