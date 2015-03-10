@@ -8,10 +8,10 @@ namespace ProfessionalWebsite
         {
             bundles.Add(new StyleBundle("~/Bundles/css")
                         .Include("~/Content/bootstrap.css")
-                        .Include("~/Content/bootstrap-theme.css")
                         .Include("~/Content/font-awesome.css")
-                        .Include("~/Content/jquery.smooth.scroll.css")
                         .Include("~/Content/site.css")
+                        .Include("~/Content/site.topbar.css")
+                        .Include("~/Content/site.wraps.css")
                         );
 
             bundles.Add(new StyleBundle("~/Bundles/font")

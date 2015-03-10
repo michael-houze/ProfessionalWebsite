@@ -1,0 +1,92 @@
+﻿#headerwrap {
+	background: url(../img/skyline-bg.jpg) no-repeat center top;
+	background-position: center center;
+    margin-top: 60px;
+	min-height: 500px;
+    padding-top:140px;
+	text-align:center;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	color: white;
+    font-size: 80px;
+}
+
+#headerwrap h3 {
+	color: white;
+    font-size: 20px;
+}
+
+#intro {
+	background: #2c3e50;
+	color: white;
+    padding-bottom: 60px;
+    padding-top: 60px;
+} 
+
+#intro h5, p {
+	color: white;
+}
+
+#intro i {
+	color: white;
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+#skillswrap {
+	background: #2c3e50;
+	color: white;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+#skillswrap h5, p {
+	color: white;
+}
+
+#footwrap {
+	background: #2f2f2f;
+	padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#footwrap p {
+	color: white;
+}
+
+#footwrap h5 {
+	color: white;
+}
+
+
+#footwrap t {
+	font-weight: 700;
+}
+
+#footwrap i {
+	color: #1abc9c;
+    padding-right: 8px;
+}
+
+#c {
+	background: #222222;
+	padding-top: 15px;
+	text-align: right;
+}
+
+#c p {
+	color: white
+}
