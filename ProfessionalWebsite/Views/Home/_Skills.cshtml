@@ -1,536 +1,240 @@
 ﻿<section id="skills" name="skills"></section>
 <div id="skillswrap">
     <div class="container">
+
         <!-- Languagess -->
         <div class="row">
             <div class="col-lg-2 col-lg-offset-1">
                 <h5>LANGUAGE</h5>
             </div>
-            <div class="col-lg-3 centered">
-                <canvas id="csharp" height="80" width="80"></canvas>
-                <p>C# 5.0</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 75,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 25,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("csharp").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="javascript" height="80" width="80"></canvas>
-                <p>JavaScript</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 55,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 45,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="html" height="80" width="80"></canvas>
-                <p>HTML5</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 80,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 20,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-2 col-lg-offset-1"></div>
-            <div class="col-lg-3 centered">
-                <canvas id="css" height="80" width="80"></canvas>
-                <p>CSS3</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 80,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 20,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("css").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="java" height="80" width="80"></canvas>
-                <p>Java</p>
-                <br>
-                <script>
-                    var doughnutData = [
-                            {
-                                value: 40,
-                                color: "#1cc716"
-                            },
-                            {
-                                value: 60,
-                                color: "#ecf0f1"
-                            }
-                    ];
-                    var myDoughnut = new Chart(document.getElementById("java").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="ruby" height="80" width="80"></canvas>
-                <p>Ruby</p>
-                <br>
-                <script>
-                    var doughnutData = [
-                            {
-                                value: 30,
-                                color: "#1cc716"
-                            },
-                            {
-                                value: 70,
-                                color: "#ecf0f1"
-                            }
-                    ];
-                    var myDoughnut = new Chart(document.getElementById("ruby").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
-                </script>
+
+            <div class="col-lg-8">
+                <!-- C# 5.0 Skill Bar-->
+                <div class="skillbar clearfix " data-percent="75%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>C# 5.0</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- JavaScript Skill Bar-->
+                <div class="skillbar clearfix " data-percent="55%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>JavaScript</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- HTML5 Skill Bar-->
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- CSS3 Server Skill Bar-->
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>CSS3</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- Java Skill Bar-->
+                <div class="skillbar clearfix " data-percent="40%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>Java</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- Ruby Skill Bar-->
+                <div class="skillbar clearfix " data-percent="30%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>Ruby</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
             </div>
         </div>
-        <hr>
-        <br>
+
+        <hr />
+        <br />
+
         <!-- Database Management Systems -->
         <div class="row">
             <div class="col-lg-2 col-lg-offset-1">
                 <h5>DBMS</h5>
             </div>
-            <div class="col-lg-3 centered">
-                <canvas id="sqlserver" height="80" width="80"></canvas>
-                <p>SQL Server</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 60,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 40,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("sqlserver").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
+            <div class="col-lg-8">
+
+                <!-- SQL Server Skill Bar-->
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>SQL Server</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- MySQL Skill Bar-->
+                <div class="skillbar clearfix " data-percent="35%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>MySQL</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- MongoDB Skill Bar-->
+                <div class="skillbar clearfix " data-percent="25%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>MongoDB</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
             </div>
-            <div class="col-lg-3 centered">
-                <canvas id="mysql" height="80" width="80"></canvas>
-                <p>MySQL</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 35,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 65,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("mysql").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="mongo" height="80" width="80"></canvas>
-                <p>MongoDB</p>
-                <br>
-                <script>
-                    var doughnutData = [
-                            {
-                                value: 25,
-                                color: "#1cc716"
-                            },
-                            {
-                                value: 75,
-                                color: "#ecf0f1"
-                            }
-                    ];
-                    var myDoughnut = new Chart(document.getElementById("mongo").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
-                </script>
-            </div>
-        </div><!--/.row -->
-        <hr>
-        <br>
+        </div>
+
+        <hr />
+        <br />
+
         <!-- Environments -->
         <div class="row">
             <div class="col-lg-2 col-lg-offset-1">
                 <h5>ENVIRONMENT</h5>
             </div>
-            <div class="col-lg-3 centered">
-                <canvas id="vs" height="80" width="80"></canvas>
-                <p>Visual Studio</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 75,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 25,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("vs").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
+            <div class="col-lg-8">
+
+                <!-- Visual Studio Skill Bar-->
+                <div class="skillbar clearfix " data-percent="75%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>Visual Studio</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- Android Studio Skill Bar-->
+                <div class="skillbar clearfix " data-percent="65%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>Android Studio</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- Sublime Text Skill Bar-->
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>Sublime Text</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- IntelliJ Skill Bar-->
+                <div class="skillbar clearfix " data-percent="40%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>IntelliJ</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- RubyMine Skill Bar-->
+                <div class="skillbar clearfix " data-percent="25%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>RubyMine</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- Brackets Skill Bar-->
+                <div class="skillbar clearfix " data-percent="70%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>Brackets</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
             </div>
-            <div class="col-lg-3 centered">
-                <canvas id="android-studio" height="80" width="80"></canvas>
-                <p>Android Studio</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 65,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 35,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("android-studio").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="sublime" height="80" width="80"></canvas>
-                <p>Sublime Text</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 80,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 20,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("sublime").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-2 col-lg-offset-1"></div>
-            <div class="col-lg-3 centered">
-                <canvas id="intellij" height="80" width="80"></canvas>
-                <p>IntelliJ</p>
-                <br>
-                <script>
-                    var doughnutData = [
-                            {
-                                value: 40,
-                                color: "#1cc716"
-                            },
-                            {
-                                value: 60,
-                                color: "#ecf0f1"
-                            }
-                    ];
-                    var myDoughnut = new Chart(document.getElementById("intellij").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="rubymine" height="80" width="80"></canvas>
-                <p>RubyMine</p>
-                <br>
-                <script>
-                    var doughnutData = [
-                            {
-                                value: 25,
-                                color: "#1cc716"
-                            },
-                            {
-                                value: 75,
-                                color: "#ecf0f1"
-                            }
-                    ];
-                    var myDoughnut = new Chart(document.getElementById("rubymine").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="brackets" height="80" width="80"></canvas>
-                <p>Brackets</p>
-                <br>
-                <script>
-                    var doughnutData = [
-                            {
-                                value: 70,
-                                color: "#1cc716"
-                            },
-                            {
-                                value: 30,
-                                color: "#ecf0f1"
-                            }
-                    ];
-                    var myDoughnut = new Chart(document.getElementById("brackets").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
-                </script>
-            </div>
-        </div><!--/.row -->
-        <hr>
-        <br>
+        </div>
+
+        <hr />
+        <br />
+
         <!-- FRAMEWORKS -->
         <div class="row">
             <div class="col-lg-2 col-lg-offset-1">
                 <h5>LIBRARY / FRAMEWORK</h5>
             </div>
-            <div class="col-lg-3 centered">
-                <canvas id="asp_mvc" height="80" width="80"></canvas>
-                <p>ASP.NET MVC 5</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 80,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 20,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("asp_mvc").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
+ 
+            <div class="col-lg-8">
+
+                <!-- ASP.NET MVC 5 Skill Bar-->
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>ASP.NET MVC 5</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- Bootstrap Skill Bar-->
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>Bootstrap</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- jQuery Skill Bar-->
+                <div class="skillbar clearfix " data-percent="50%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>jQuery</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- Entity Framework Skill Bar-->
+                <div class="skillbar clearfix " data-percent="40%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>Entity Framework</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- nHibernate Skill Bar-->
+                <div class="skillbar clearfix " data-percent="40%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>nHibernate</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- SignalR Skill Bar-->
+                <div class="skillbar clearfix " data-percent="30%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>SignalR</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
             </div>
-            <div class="col-lg-3 centered">
-                <canvas id="bootstrap" height="80" width="80"></canvas>
-                <p>Bootstrap</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 80,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 20,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="jquery" height="80" width="80"></canvas>
-                <p>jQuery</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 40,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 60,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("jquery").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-2 col-lg-offset-1"></div>
-            <div class="col-lg-3 centered">
-                <canvas id="entity" height="80" width="80"></canvas>
-                <p>Entity Framework</p>
-                <br>
-                <script>
-                    var doughnutData = [
-                            {
-                                value: 40,
-                                color: "#1cc716"
-                            },
-                            {
-                                value: 60,
-                                color: "#ecf0f1"
-                            }
-                    ];
-                    var myDoughnut = new Chart(document.getElementById("entity").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="nhibernate" height="80" width="80"></canvas>
-                <p>nHibernate</p>
-                <br>
-                <script>
-                    var doughnutData = [
-                            {
-                                value: 40,
-                                color: "#1cc716"
-                            },
-                            {
-                                value: 60,
-                                color: "#ecf0f1"
-                            }
-                    ];
-                    var myDoughnut = new Chart(document.getElementById("nhibernate").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="signalr" height="80" width="80"></canvas>
-                <p>SignalR</p>
-                <br>
-                <script>
-                    var doughnutData = [
-                            {
-                                value: 30,
-                                color: "#1cc716"
-                            },
-                            {
-                                value: 70,
-                                color: "#ecf0f1"
-                            }
-                    ];
-                    var myDoughnut = new Chart(document.getElementById("signalr").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
-                </script>
-            </div>
-        </div><!--/.row -->
-        <hr>
-        <br>
+        </div>
+
+        <hr />
+        <br />
+
         <!-- VERSION CONTROL -->
         <div class="row">
             <div class="col-lg-2 col-lg-offset-1">
                 <h5>VERSION CONTROL</h5>
             </div>
-            <div class="col-lg-3 centered">
-                <canvas id="git" height="80" width="80"></canvas>
-                <p>Git</p>
-                <br>
-                <script>
-                    var doughnutData = [
-                            {
-                                value: 75,
-                                color: "#1cc716"
-                            },
-                            {
-                                value: 25,
-                                color: "#ecf0f1"
-                            }
-                    ];
-                    var myDoughnut = new Chart(document.getElementById("git").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
-                </script>
+
+            <div class="col-lg-8">
+
+                <!-- Git Skill Bar-->
+                <div class="skillbar clearfix " data-percent="75%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>Git</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- TFS Skill Bar-->
+                <div class="skillbar clearfix " data-percent="40%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>TFS</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
             </div>
-            <div class="col-lg-3 centered">
-                <canvas id="tfs" height="80" width="80"></canvas>
-                <p>Team Foundation Server</p>
-                <br>
-                <script>
-                    var doughnutData = [
-                            {
-                                value: 40,
-                                color: "#1cc716"
-                            },
-                            {
-                                value: 60,
-                                color: "#ecf0f1"
-                            }
-                    ];
-                    var myDoughnut = new Chart(document.getElementById("tfs").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
-                </script>
-            </div>
-        </div><!--/.row -->
+        </div>
+
         <hr />
         <br />
+
         <!-- NON-TECHNICAL -->
         <div class="row">
             <div class="col-lg-2 col-lg-offset-1">
                 <h5>NON-TECHNICAL</h5>
             </div>
-            <div class="col-lg-3 centered">
-                <canvas id="agile" height="80" width="80"></canvas>
-                <p>Agile Development</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 80,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 20,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("agile").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="leadership" height="80" width="80"></canvas>
-                <p>Team Leadership</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 65,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 35,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("leadership").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="budget" height="80" width="80"></canvas>
-                <p>Budget Management</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 65,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 35,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("budget").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-        </div><!--/.row -->
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-1">
-                <h5>SKILLS TEST SECTION</h5>
-            </div>
+
             <div class="col-lg-8">
+
+                <!-- Agile Development Skill Bar-->
                 <div class="skillbar clearfix " data-percent="80%">
                     <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
                     <div class="skillbar-bar" style="background: #e67e22;"></div>
-                    <div class="skill-bar-percent">20%</div>
-                </div> <!-- End Skill Bar -->
-            </div>
+                </div>
 
+                <!-- Team Leadership Skill Bar-->
+                <div class="skillbar clearfix " data-percent="65%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>CSS3</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+                <!-- Budget Management Skill Bar-->
+                <div class="skillbar clearfix " data-percent="65%">
+                    <div class="skillbar-title" style="background: #d35400;"><span>CSS3</span></div>
+                    <div class="skillbar-bar" style="background: #e67e22;"></div>
+                </div>
+
+            </div>
         </div>
 
-    </div><!--/.container -->
-</div><!--/ #skillswrap -->
+    </div>
+</div>
