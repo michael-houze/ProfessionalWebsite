@@ -20,17 +20,11 @@ namespace ProfessionalWebsite
                         .Include("~/fonts/raleway-font-faces.css")
                         );
 
-            bundles.Add(new ScriptBundle("~/Bundles/preload_js")
-                        .Include("~/Scripts/jquery-2.1.3.js")
-                        .Include("~/Scripts/jquery.smooth.scroll-1.0.1.js")
-                        .Include("~/Scripts/Chart.js")
-                        .Include("~/Scripts/site.skillbar.js")
-                        );
-
             bundles.Add(new ScriptBundle("~/Bundles/postload_js")
-                        
+                        .Include("~/Scripts/jquery-2.1.3.js")
+                        .Include("~/Scripts/site.skillbar.js")
                         .Include("~/Scripts/bootstrap.js")
-                        
+                        .Include("~/Scripts/jquery.smooth.scroll-1.0.1.js")
                         );
 
             BundleTable.EnableOptimizations = true;
