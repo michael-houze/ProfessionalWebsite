@@ -106,6 +106,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\images\codetag.ico" />
     <Content Include="Content\images\skyline-bg.jpg" />
     <Content Include="Content\images\smooth_scroll_arrow.png" />
     <Content Include="Content\site.css" />
