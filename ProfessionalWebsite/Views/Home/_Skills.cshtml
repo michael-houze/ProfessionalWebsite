@@ -8,43 +8,7 @@
             </div>
             <div class="col-lg-3 centered">
                 <canvas id="csharp" height="80" width="80"></canvas>
-                <p>C#</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 70,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 30,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("csharp").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="java" height="80" width="80"></canvas>
-                <p>Java</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 60,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 40,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("java").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="javascript" height="80" width="80"></canvas>
-                <p>Javascript</p>
+                <p>C# 5.0</p>
                 <br>
                 <script>
 						var doughnutData = [
@@ -57,13 +21,30 @@
 								     color : "#ecf0f1"
                                 }
 				        ];
+						var myDoughnut = new Chart(document.getElementById("csharp").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="javascript" height="80" width="80"></canvas>
+                <p>JavaScript</p>
+                <br>
+                <script>
+						var doughnutData = [
+                                {
+							         value: 55,
+                                     color:"#1cc716"
+                                },
+                                {
+								     value : 45,
+								     color : "#ecf0f1"
+                                }
+				        ];
 						var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
                 </script>
             </div>
-            <div class="col-lg-2 col-lg-offset-1"></div>
             <div class="col-lg-3 centered">
-                <canvas id="html_css" height="80" width="80"></canvas>
-                <p>HTML/CSS</p>
+                <canvas id="html" height="80" width="80"></canvas>
+                <p>HTML5</p>
                 <br>
                 <script>
 						var doughnutData = [
@@ -76,7 +57,62 @@
 								     color : "#ecf0f1"
                                 }
 				        ];
-						var myDoughnut = new Chart(document.getElementById("html_css").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+						var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+                </script>
+            </div>
+            <div class="col-lg-2 col-lg-offset-1"></div>
+            <div class="col-lg-3 centered">
+                <canvas id="css" height="80" width="80"></canvas>
+                <p>CSS3</p>
+                <br>
+                <script>
+						var doughnutData = [
+                                {
+							         value: 80,
+                                     color:"#1cc716"
+                                },
+                                {
+								     value : 20,
+								     color : "#ecf0f1"
+                                }
+				        ];
+						var myDoughnut = new Chart(document.getElementById("css").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="java" height="80" width="80"></canvas>
+                <p>Java</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                            {
+                                value: 40,
+                                color: "#1cc716"
+                            },
+                            {
+                                value: 60,
+                                color: "#ecf0f1"
+                            }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("java").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="ruby" height="80" width="80"></canvas>
+                <p>Ruby</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                            {
+                                value: 30,
+                                color: "#1cc716"
+                            },
+                            {
+                                value: 70,
+                                color: "#ecf0f1"
+                            }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("ruby").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
                 </script>
             </div>
         </div>
@@ -88,8 +124,8 @@
                 <h5>DBMS</h5>
             </div>
             <div class="col-lg-3 centered">
-                <canvas id="sql2012" height="80" width="80"></canvas>
-                <p>SQL Server 2012</p>
+                <canvas id="sqlserver" height="80" width="80"></canvas>
+                <p>SQL Server</p>
                 <br>
                 <script>
 						var doughnutData = [
@@ -102,38 +138,56 @@
 								     color : "#ecf0f1"
                                 }
 				        ];
-						var myDoughnut = new Chart(document.getElementById("sql2012").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+						var myDoughnut = new Chart(document.getElementById("sqlserver").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
                 </script>
             </div>
             <div class="col-lg-3 centered">
-                <canvas id="sql2008" height="80" width="80"></canvas>
-                <p>SQL Server 2008 R2</p>
+                <canvas id="mysql" height="80" width="80"></canvas>
+                <p>MySQL</p>
                 <br>
                 <script>
 						var doughnutData = [
                                 {
-							         value: 40,
+							         value: 35,
                                      color:"#1cc716"
                                 },
                                 {
-								     value : 60,
+								     value : 65,
 								     color : "#ecf0f1"
                                 }
 				        ];
-						var myDoughnut = new Chart(document.getElementById("sql2008").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+						var myDoughnut = new Chart(document.getElementById("mysql").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="mongo" height="80" width="80"></canvas>
+                <p>MongoDB</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                            {
+                                value: 25,
+                                color: "#1cc716"
+                            },
+                            {
+                                value: 75,
+                                color: "#ecf0f1"
+                            }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("mongo").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
                 </script>
             </div>
         </div><!--/.row -->
         <hr>
         <br>
-        <!-- IDEs -->
+        <!-- Environments -->
         <div class="row">
             <div class="col-lg-2 col-lg-offset-1">
-                <h5>IDE</h5>
+                <h5>ENVIRONMENT</h5>
             </div>
             <div class="col-lg-3 centered">
-                <canvas id="vs2013" height="80" width="80"></canvas>
-                <p>Visual Studio 2013</p>
+                <canvas id="vs" height="80" width="80"></canvas>
+                <p>Visual Studio</p>
                 <br>
                 <script>
 						var doughnutData = [
@@ -146,56 +200,12 @@
 								     color : "#ecf0f1"
                                 }
 				        ];
-						var myDoughnut = new Chart(document.getElementById("vs2013").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+						var myDoughnut = new Chart(document.getElementById("vs").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
                 </script>
             </div>
             <div class="col-lg-3 centered">
                 <canvas id="android-studio" height="80" width="80"></canvas>
                 <p>Android Studio</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 75,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 25,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("android-studio").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="vs2012" height="80" width="80"></canvas>
-                <p>Visual Studio 2012</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 80,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 20,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("vs2012").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-        </div><!--/.row -->
-        <hr>
-        <br>
-        <!-- FRAMEWORKS -->
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-1">
-                <h5>FRAMEWORK</h5>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="asp_mvc" height="80" width="80"></canvas>
-                <p>ASP.Net MVC</p>
                 <br>
                 <script>
 						var doughnutData = [
@@ -208,92 +218,12 @@
 								     color : "#ecf0f1"
                                 }
 				        ];
-						var myDoughnut = new Chart(document.getElementById("asp_mvc").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+						var myDoughnut = new Chart(document.getElementById("android-studio").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
                 </script>
             </div>
             <div class="col-lg-3 centered">
-                <canvas id="angular" height="80" width="80"></canvas>
-                <p>AngularJS</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 40,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 60,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("angular").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="ember" height="80" width="80"></canvas>
-                <p>EmberJS</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 40,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 60,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("ember").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-        </div><!--/.row -->
-        <hr>
-        <br>
-        <!-- OPERATING SYSTEMS -->
-        <div class="row">
-            <div class="col-lg-2 col-lg-offset-1">
-                <h5>OPERATING SYSTEM</h5>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="windows-81" height="80" width="80"></canvas>
-                <p>Microsoft Windows 8.1</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 75,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 25,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("windows-81").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="windows-7" height="80" width="80"></canvas>
-                <p>Microsoft Windows 7</p>
-                <br>
-                <script>
-						var doughnutData = [
-                                {
-							         value: 85,
-                                     color:"#1cc716"
-                                },
-                                {
-								     value : 15,
-								     color : "#ecf0f1"
-                                }
-				        ];
-						var myDoughnut = new Chart(document.getElementById("windows-7").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
-                </script>
-            </div>
-            <div class="col-lg-3 centered">
-                <canvas id="windows-xp" height="80" width="80"></canvas>
-                <p>Microsoft Windows XP</p>
+                <canvas id="sublime" height="80" width="80"></canvas>
+                <p>Sublime Text</p>
                 <br>
                 <script>
 						var doughnutData = [
@@ -306,7 +236,285 @@
 								     color : "#ecf0f1"
                                 }
 				        ];
-						var myDoughnut = new Chart(document.getElementById("windows-xp").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+						var myDoughnut = new Chart(document.getElementById("sublime").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+                </script>
+            </div>
+            <div class="col-lg-2 col-lg-offset-1"></div>
+            <div class="col-lg-3 centered">
+                <canvas id="intellij" height="80" width="80"></canvas>
+                <p>IntelliJ</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                            {
+                                value: 40,
+                                color: "#1cc716"
+                            },
+                            {
+                                value: 60,
+                                color: "#ecf0f1"
+                            }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("intellij").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="rubymine" height="80" width="80"></canvas>
+                <p>RubyMine</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                            {
+                                value: 25,
+                                color: "#1cc716"
+                            },
+                            {
+                                value: 75,
+                                color: "#ecf0f1"
+                            }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("rubymine").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="brackets" height="80" width="80"></canvas>
+                <p>Brackets</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                            {
+                                value: 70,
+                                color: "#1cc716"
+                            },
+                            {
+                                value: 30,
+                                color: "#ecf0f1"
+                            }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("brackets").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
+                </script>
+            </div>
+        </div><!--/.row -->
+        <hr>
+        <br>
+        <!-- FRAMEWORKS -->
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-1">
+                <h5>LIBRARY / FRAMEWORK</h5>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="asp_mvc" height="80" width="80"></canvas>
+                <p>ASP.NET MVC 5</p>
+                <br>
+                <script>
+						var doughnutData = [
+                                {
+							         value: 80,
+                                     color:"#1cc716"
+                                },
+                                {
+								     value : 20,
+								     color : "#ecf0f1"
+                                }
+				        ];
+						var myDoughnut = new Chart(document.getElementById("asp_mvc").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="bootstrap" height="80" width="80"></canvas>
+                <p>Bootstrap</p>
+                <br>
+                <script>
+						var doughnutData = [
+                                {
+							         value: 80,
+                                     color:"#1cc716"
+                                },
+                                {
+								     value : 20,
+								     color : "#ecf0f1"
+                                }
+				        ];
+						var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="jquery" height="80" width="80"></canvas>
+                <p>jQuery</p>
+                <br>
+                <script>
+						var doughnutData = [
+                                {
+							         value: 40,
+                                     color:"#1cc716"
+                                },
+                                {
+								     value : 60,
+								     color : "#ecf0f1"
+                                }
+				        ];
+						var myDoughnut = new Chart(document.getElementById("jquery").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+                </script>
+            </div>
+            <div class="col-lg-2 col-lg-offset-1"></div>
+            <div class="col-lg-3 centered">
+                <canvas id="entity" height="80" width="80"></canvas>
+                <p>Entity Framework</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                            {
+                                value: 40,
+                                color: "#1cc716"
+                            },
+                            {
+                                value: 60,
+                                color: "#ecf0f1"
+                            }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("entity").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="nhibernate" height="80" width="80"></canvas>
+                <p>nHibernate</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                            {
+                                value: 40,
+                                color: "#1cc716"
+                            },
+                            {
+                                value: 60,
+                                color: "#ecf0f1"
+                            }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("nhibernate").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="signalr" height="80" width="80"></canvas>
+                <p>SignalR</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                            {
+                                value: 30,
+                                color: "#1cc716"
+                            },
+                            {
+                                value: 70,
+                                color: "#ecf0f1"
+                            }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("signalr").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
+                </script>
+            </div>
+        </div><!--/.row -->
+        <hr>
+        <br>
+        <!-- VERSION CONTROL -->
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-1">
+                <h5>VERSION CONTROL</h5>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="git" height="80" width="80"></canvas>
+                <p>Git</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                            {
+                                value: 75,
+                                color: "#1cc716"
+                            },
+                            {
+                                value: 25,
+                                color: "#ecf0f1"
+                            }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("git").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="tfs" height="80" width="80"></canvas>
+                <p>Team Foundation Server</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                            {
+                                value: 40,
+                                color: "#1cc716"
+                            },
+                            {
+                                value: 60,
+                                color: "#ecf0f1"
+                            }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("tfs").getContext("2d")).Doughnut(doughnutData, { percentageInnerCutout: 0 });
+                </script>
+            </div>
+        </div><!--/.row -->
+        <hr />
+        <br />
+        <!-- NON-TECHNICAL -->
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-1">
+                <h5>NON-TECHNICAL</h5>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="agile" height="80" width="80"></canvas>
+                <p>Agile Development</p>
+                <br>
+                <script>
+						var doughnutData = [
+                                {
+							         value: 80,
+                                     color:"#1cc716"
+                                },
+                                {
+								     value : 20,
+								     color : "#ecf0f1"
+                                }
+				        ];
+						var myDoughnut = new Chart(document.getElementById("agile").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="leadership" height="80" width="80"></canvas>
+                <p>Team Leadership</p>
+                <br>
+                <script>
+						var doughnutData = [
+                                {
+							         value: 65,
+                                     color:"#1cc716"
+                                },
+                                {
+								     value : 35,
+								     color : "#ecf0f1"
+                                }
+				        ];
+						var myDoughnut = new Chart(document.getElementById("leadership").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="budget" height="80" width="80"></canvas>
+                <p>Budget Management</p>
+                <br>
+                <script>
+						var doughnutData = [
+                                {
+							         value: 65,
+                                     color:"#1cc716"
+                                },
+                                {
+								     value : 35,
+								     color : "#ecf0f1"
+                                }
+				        ];
+						var myDoughnut = new Chart(document.getElementById("budget").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
                 </script>
             </div>
         </div><!--/.row -->
