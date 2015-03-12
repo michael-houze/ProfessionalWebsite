@@ -8,7 +8,9 @@ namespace ProfessionalWebsite
         {
             bundles.Add(new StyleBundle("~/Bundles/css")
                         .Include("~/Content/bootstrap.css")
-                        .Include("~/Content/font-awesome.css")
+                        .Include("~/Content/icons.css")
+                        .Include("~/Content/lato-font.css")
+                        .Include("~/Content/raleway-font.css")
                         .Include("~/Content/site.css")
                         .Include("~/Content/site.skillbar.css")
                         .Include("~/Content/site.topbar.css")

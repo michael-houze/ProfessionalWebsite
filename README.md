@@ -20,6 +20,7 @@ I use this site to provide a quick snapshot of my development skills as well as 
 * ~~Update skills section~~
 * ~~Change skills javascript to barcharts~~
 * ~~Find and update favicon~~
+* ~~Replace fontawesome~~
 * Add a Github link to top of page
 * Social links - move to a more prominent area, change color and increase size
 * Optimize
