@@ -76,6 +76,10 @@ hr {
     text-align: center;
 }
 
+.contact-icon {
+    font-size: 30px;
+}
+
 .desc {
 	padding-top: 50px;
 }

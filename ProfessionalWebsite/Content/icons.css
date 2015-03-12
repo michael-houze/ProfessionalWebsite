@@ -55,3 +55,22 @@
 	content: "\e942";
 }
 
+.twitter-contact {
+    font-size: 30px;
+    color: #55acee;
+}
+
+.facebook-contact {
+    font-size: 30px;
+    color: #3b5998;
+}
+
+.linkedin-contact {
+    font-size: 30px;
+    color: #0976b4;
+}
+
+.github-contact {
+    font-size: 30px;
+    color: #4183c4;
+}
