@@ -22,5 +22,5 @@ I use this site to provide a quick snapshot of my development skills as well as 
 * ~~Find and update favicon~~
 * ~~Replace fontawesome~~
 * ~~Social links - move to a more prominent area, change color and increase size~~
-* Add a Github link to top of page
+* ~~Add a Github link to top of page~~
 * Optimize
